@@ -91,13 +91,17 @@
               "id": "version-v1.4/tutorials/consume-cloud-services"
             },
             {
+              "type": "doc",
+              "id": "version-v1.4/end-user/components/cloud-services/cloud-resources-orchestration"
+            },
+            {
               "collapsed": true,
               "type": "category",
               "label": "Manage Database",
               "items": [
                 {
                   "type": "doc",
-                  "id": "version-v1.4/end-user/components/cloud-services/provision-and-consume-cloud-services"
+                  "id": "version-v1.4/end-user/components/cloud-services/provision-and-consume-database"
                 },
                 {
                   "type": "doc",
@@ -537,8 +541,19 @@
               "id": "version-v1.4/reference/addons/fluxcd"
             },
             {
-              "type": "doc",
-              "id": "version-v1.4/reference/addons/terraform"
+              "collapsed": true,
+              "type": "category",
+              "label": "Cloud Resources",
+              "items": [
+                {
+                  "type": "doc",
+                  "id": "version-v1.4/reference/addons/terraform"
+                },
+                {
+                  "type": "doc",
+                  "id": "version-v1.4/reference/addons/crossplane"
+                }
+              ]
             },
             {
               "type": "doc",

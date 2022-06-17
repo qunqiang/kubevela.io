@@ -1,5 +1,5 @@
 ---
-title: Cloud Resources
+title: Cloud Resources orchestrated by Terraform
 ---
 
 
@@ -100,4 +100,4 @@ $ vela provider add terraform-aws --name aws-dev --AWS_ACCESS_KEY_ID=xxx --AWS_S
 
 ### Provision cloud resources
 
-After a Terraform provider is authenticated, you can [provision and/or consume cloud resources](../../end-user/components/cloud-services/provision-and-consume-cloud-services).
+After a Terraform provider is authenticated, you can [provision and/or consume cloud resources](../../end-user/components/cloud-services/cloud-resources-orchestration).

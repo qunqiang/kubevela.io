@@ -46,14 +46,15 @@ module.exports = {
           collapsed: true,
           items: [
             'tutorials/consume-cloud-services',
+            'end-user/components/cloud-services/cloud-resources-orchestration',
             {
-              'Manage Database': [
-                'end-user/components/cloud-services/provision-and-consume-cloud-services',
-                'end-user/components/cloud-services/provision-and-initiate-database',
-                'end-user/components/cloud-services/secure-your-database-connection',
-                'end-user/components/cloud-services/provision-an-RDS-instance-with-more-than-one-database'
-              ],
-            }
+            'Manage Database': [
+              'end-user/components/cloud-services/provision-and-consume-database',
+              'end-user/components/cloud-services/provision-and-initiate-database',
+              'end-user/components/cloud-services/secure-your-database-connection',
+              'end-user/components/cloud-services/provision-an-RDS-instance-with-more-than-one-database'
+            ],
+          }
           ],
         },
         {
@@ -220,7 +221,12 @@ module.exports = {
             'reference/addons/velaux',
             'reference/addons/rollout',
             'reference/addons/fluxcd',
-            'reference/addons/terraform',
+            {
+              "Cloud Resources": [
+                'reference/addons/terraform',
+                'reference/addons/crossplane',
+              ]
+            },
             'reference/addons/ai',
             'reference/addons/traefik',
             'reference/addons/cert-manager',
