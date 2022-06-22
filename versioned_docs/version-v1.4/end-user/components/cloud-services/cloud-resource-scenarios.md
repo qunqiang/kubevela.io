@@ -11,7 +11,7 @@ description: This section introduces some scenarios of cloud resources managemen
 
 - [Secure your Database Connection](./secure-your-database-connection)
 
-- [Provision an RDS instance with more than one database](./provision-an-RDS-instance-with-more-than-one-database.md)
+- [Provision an RDS instance with more than one database](./provision-an-RDS-instance-with-more-than-one-database)
 
-- [Provision a Database and Import a SQL File for initialization](./provision-and-initiate-database.md)
+- [Provision a Database and Import a SQL File for initialization](./provision-and-initiate-database)
 
