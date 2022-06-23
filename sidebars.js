@@ -45,16 +45,22 @@ module.exports = {
           label: 'Cloud Resources CD',
           collapsed: true,
           items: [
-            'tutorials/consume-cloud-services',
             'end-user/components/cloud-services/cloud-resources-orchestration',
             {
-            'Manage Database': [
-              'end-user/components/cloud-services/provision-and-consume-database',
-              'end-user/components/cloud-services/provision-and-initiate-database',
-              'end-user/components/cloud-services/secure-your-database-connection',
-              'end-user/components/cloud-services/provision-an-RDS-instance-with-more-than-one-database'
-            ],
-          }
+              type: 'category',
+              label: 'Terraform',
+              items: [
+                {
+                  'Manage Database': [
+                    'end-user/components/cloud-services/provision-and-consume-database',
+                    'end-user/components/cloud-services/provision-and-initiate-database',
+                    'end-user/components/cloud-services/secure-your-database-connection',
+                    'end-user/components/cloud-services/provision-an-RDS-instance-with-more-than-one-database'
+                  ],
+                },
+              ],
+            },
+            "end-user/components/cloud-services/provision-cloud-resources-by-crossplane",
           ],
         },
         {

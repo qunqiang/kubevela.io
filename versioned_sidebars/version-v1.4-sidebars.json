@@ -88,11 +88,11 @@
           "items": [
             {
               "type": "doc",
-              "id": "version-v1.4/tutorials/consume-cloud-services"
+              "id": "version-v1.4/end-user/components/cloud-services/cloud-resources-orchestration"
             },
             {
               "type": "doc",
-              "id": "version-v1.4/end-user/components/cloud-services/cloud-resources-orchestration"
+              "id": "version-v1.4/end-user/components/cloud-services/provision-cloud-resources-by-crossplane"
             },
             {
               "collapsed": true,

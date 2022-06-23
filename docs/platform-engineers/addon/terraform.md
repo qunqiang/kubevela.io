@@ -85,7 +85,7 @@ NAME      STATE   AGE
 tencent   ready   1d
 ```
 
-You are encouraged to further verify the provider by [provision a cloud resource of your cloud provider](../../tutorials/consume-cloud-services).
+You are encouraged to further verify the provider by [provision a cloud resource of your cloud provider](../../end-user/components/cloud-services/cloud-resources-orchestration).
 
 ## Submit the Terraform Addon
 
@@ -93,4 +93,4 @@ Push the code generated in `./addons` and make a pull request.
 
 ## Contribute documentation
 
-Write [Terraform Addon enable doc](../../reference/addons/terraform) for your cloud provider and add it to [all supported cloud providers](../../tutorials/consume-cloud-services#enabling-cloud-vendor-addons).
+Write [Terraform Addon enable doc](../../reference/addons/terraform) for your cloud provider and add it to [all supported cloud providers](../../end-user/components/cloud-services/cloud-resources-orchestration#enabling-cloud-vendor-addons).
