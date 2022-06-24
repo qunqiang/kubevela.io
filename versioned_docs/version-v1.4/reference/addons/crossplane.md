@@ -28,7 +28,7 @@ You can also disable, upgrade, check status of an addon by command `vela addon`.
 
 ## Authenticate Crossplane Provider
 
-Apply the application below. You can get AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY per https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/.
+Apply the application below. Let's use aws in this example, you can get `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY` per [aws secret docs](https://aws.amazon.com/blogs/security/wheres-my-secret-access-key/).
 
 ```yaml
 apiVersion: core.oam.dev/v1beta1
