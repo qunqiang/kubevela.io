@@ -120,7 +120,7 @@ In this section, we introduce an example to show you how to deploy cloud service
 
 选择对应的插件版本并启用该插件。
 
-![addon-alibaba](../resources/addon-alibaba.jpg)
+![addon-alibaba](../../../resources/addon-alibaba.jpg)
 
 ## 认证云服务商的插件
 
@@ -131,32 +131,32 @@ In this section, we introduce an example to show you how to deploy cloud service
 例如，对于阿里巴巴云，你需要设置以下属性：
 > 注意。KubeVela对所有的密钥进行了加密，因此不必担心它的安全问题。
 
-![](../resources/provider-alibaba.jpg)
+![](../../../resources/provider-alibaba.jpg)
 
 然后填写你的ALICLOUD_ACCESS_KEY，ALICLOUD_REGION，和ALICLOUD_SECRET_KEY来启用它。
 
 云服务的创建过程会从GitHub中提取配置。如果你的控制平面 运行KubeVela的集群很难连接到GitHub，请在`terraform`插件中打开`GithubBlocked`选项。
 
-KubeVela支持的云资源请见[列表](../end-user/components/cloud-services/cloud-resources-list)。
+KubeVela支持的云资源请见[列表](../cloud-services/cloud-resources-list)。
 
 ## 创建你的云服务
 
-首先[创建一个应用程序](../how-to/dashboard/application/create-application)。请选择你的云服务的类型。
+首先[创建一个应用程序](../../../how-to/dashboard/application/create-application)。请选择你的云服务的类型。
 其前缀为`aws-`、`azure`、`alibaba-`或 `tencent-`。
 
 对于不同的供应商，这些参数会相应更新。
 
 例如，`aws-s3` 有以下参数。
 
-![](../resources/aws-s3-parameters.png)
+![](../../../resources/aws-s3-parameters.png)
 
 `azure-database-mariadb` 有以下参数。
 
-![](../resources/azure-database-mariadb-parameters.png)
+![](../../../resources/azure-database-mariadb-parameters.png)
 
 `alibaba-rds` 有以下参数。
 
-![](../resources/alibaba-rds-parameters.png)
+![](../../../resources/alibaba-rds-parameters.png)
 
 所有的云资源都有一些共同的参数。
 
@@ -164,7 +164,7 @@ KubeVela支持的云资源请见[列表](../end-user/components/cloud-services/c
 - ProviderRef：被云服务引用的提供者。
 - Region：Region是云提供商的区域。它将覆盖`providerRef`。
 
-根据你的需要设置上述参数，完成应用程序的创建，然后[部署应用程序](../how-to/dashboard/application/deploy-application)。
+根据你的需要设置上述参数，完成应用程序的创建，然后[部署应用程序](../../../how-to/dashboard/application/deploy-application)。
 
 ## 查看云资源创建状态
 
@@ -172,29 +172,29 @@ KubeVela支持的云资源请见[列表](../end-user/components/cloud-services/c
 
 与其他应用程序一样，云服务应用程序也需要切换到相应的环境页面来查看实例信息。 默认情况下，一个环境中有多个目标，云服务会生成相应数量的实例。
 
-![rds-inststances](../resources/rds-instances.jpg)
+![rds-inststances](../../../resources/rds-instances.jpg)
 
 在实例列表中，会显示实例名称、状态、资源类型和位置。在开始时，名称是空的。 因为云服务实例的生成需要一定的时间，当实例正常生成后，名称会出现。
 
 - 在云提供商的控制台中查看云资源
 
 您可以在云提供商的控制台中访问该实例。例如，您可以检查名称或控制台来访问它。
-![](../resources/application-console-link.png)
+![](../../../resources/application-console-link.png)
 
 例如，你可以在[https://console.aliyun.com](https://console.aliyun.com)中查看阿里巴巴云RDS实例。
 
-![](../resources/alibaba-cloud-rds-console.png)
+![](../../../resources/alibaba-cloud-rds-console.png)
 
 - 检查云实例的细节和状态
 
 点击 "检查细节 "按钮来查看应用程序的细节。
 
-![rds-status](../resources/rds-status.jpg)
+![rds-status](../../../resources/rds-status.jpg)
 
 你会发现，每个实例都会生成一个Secret资源，一般来说，它记录了服务的访问地址和密钥信息。秘密资源将被分配到目标所在的集群和命名空间，而
 控制集群存在。因此，同一环境中的其他应用程序可以直接使用资源中的环境变量来获取访问地址和密钥。
 
-![env-secret](../resources/env-secret.jpg)
+![env-secret](../../../resources/env-secret.jpg)
 
 在最后一节 `Component Status` 中，显示了云服务实例的健康状态和信息。
 
