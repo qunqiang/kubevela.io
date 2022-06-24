@@ -91,31 +91,38 @@
               "id": "version-v1.4/end-user/components/cloud-services/cloud-resources-orchestration"
             },
             {
-              "type": "doc",
-              "id": "version-v1.4/end-user/components/cloud-services/provision-cloud-resources-by-crossplane"
-            },
-            {
               "collapsed": true,
               "type": "category",
-              "label": "Manage Database",
+              "label": "Terraform",
               "items": [
                 {
-                  "type": "doc",
-                  "id": "version-v1.4/end-user/components/cloud-services/provision-and-consume-database"
-                },
-                {
-                  "type": "doc",
-                  "id": "version-v1.4/end-user/components/cloud-services/provision-and-initiate-database"
-                },
-                {
-                  "type": "doc",
-                  "id": "version-v1.4/end-user/components/cloud-services/secure-your-database-connection"
-                },
-                {
-                  "type": "doc",
-                  "id": "version-v1.4/end-user/components/cloud-services/provision-an-RDS-instance-with-more-than-one-database"
+                  "collapsed": true,
+                  "type": "category",
+                  "label": "Manage Database",
+                  "items": [
+                    {
+                      "type": "doc",
+                      "id": "version-v1.4/end-user/components/cloud-services/provision-and-consume-database"
+                    },
+                    {
+                      "type": "doc",
+                      "id": "version-v1.4/end-user/components/cloud-services/provision-and-initiate-database"
+                    },
+                    {
+                      "type": "doc",
+                      "id": "version-v1.4/end-user/components/cloud-services/secure-your-database-connection"
+                    },
+                    {
+                      "type": "doc",
+                      "id": "version-v1.4/end-user/components/cloud-services/provision-an-RDS-instance-with-more-than-one-database"
+                    }
+                  ]
                 }
               ]
+            },
+            {
+              "type": "doc",
+              "id": "version-v1.4/end-user/components/cloud-services/provision-cloud-resources-by-crossplane"
             }
           ]
         },
