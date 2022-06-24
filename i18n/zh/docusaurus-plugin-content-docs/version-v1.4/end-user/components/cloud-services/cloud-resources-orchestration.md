@@ -106,7 +106,7 @@ In this section, we introduce an example to show you how to deploy cloud service
 
 ## 开启对应云服务商的插件
 
-首先，访问[VelaUX (KubeVela Dashboard)](../install#3-安装-VelaUX)，切换到 "Addon" 标签，并点击 addon
+首先，访问 VelaUX，切换到 "Addon" 标签，并点击 addon
 `terraform-xxx`。`xxx`代表云提供商的名称。我们支持以下的插件：
 
 - terraform-alibaba
